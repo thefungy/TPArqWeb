@@ -34,6 +34,25 @@ El sistema incluirá funcionalidades CRUD para registrar y gestionar tanto médi
 
 ### Endpoints
 
+### Usuarios
+
+- **GET /api/usuarios**
+  - **Descripción**: Obtiene una lista de todos los usuarios registrados (médicos y pacientes).
+  - **HTTP Status**: `200 OK`
+
+- **POST /api/usuarios**
+  - **Descripción**: Registra un nuevo usuario en el sistema (puede ser médico o paciente).
+  - **HTTP Status**: `201 Created`
+
+- **PUT /api/usuarios/{id}**
+  - **Descripción**: Actualiza la información de un usuario existente.
+  - **HTTP Status**: `200 OK`
+
+- **DELETE /api/usuarios/{id}**
+  - **Descripción**: Elimina un usuario del sistema.
+  - **HTTP Status**: `204 No Content`
+
+    
 #### Médicos
 
 - **GET /api/medicos**
