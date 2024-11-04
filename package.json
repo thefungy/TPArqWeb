@@ -1,0 +1,28 @@
+{
+  "name": "tp-arquitectura-web---antonella-piva",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Trabajo práctico para la materia Arquitectura Web de la carrera de Lic en Ciberseguridad en la UP. Para la idea de negocio me base en el TP que usamos para Programación 3\\ Labo 1.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefungy/TPArqWeb.git"
+  },
+  "author": "Antonella Piva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thefungy/TPArqWeb/issues"
+  },
+  "homepage": "https://github.com/thefungy/TPArqWeb#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
